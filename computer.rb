@@ -30,8 +30,6 @@ class Computer
     4.times do
       @code += rand(1..6).to_s
     end
-
-    puts @code
   end
 
   # calculates pins for a guess and returns number of red and white pins as an array
